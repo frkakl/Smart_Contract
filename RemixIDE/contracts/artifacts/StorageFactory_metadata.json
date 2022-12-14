@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RemixIDE/contracts/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"RemixIDE/contracts/SimpleStorage.sol": {
+			"keccak256": "0x2e3bc6dc06d13edb89967952eb3de5ef841ea3b7a95176cb997f88ba0581a40d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://139bed42a2102054b2b579ca83fe319baa8f3f4856a54736568c4da8b5e8bb66",
+				"dweb:/ipfs/QmQqC9UC12dbeUHJKULSMPe9cue3wTNKinuY9PJGa7E8Yo"
+			]
+		},
+		"RemixIDE/contracts/StorageFactory.sol": {
+			"keccak256": "0x0bed09a046dc3ec232fb2ff1fb84759adcbfb9e0792cae00e50f323cd75d24ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a07fd6a3422fcc9ec2dc818243c45f6320ad4d04aaa4ed63a68adc1b4a4843c5",
+				"dweb:/ipfs/QmerGpmhVxMaq2RSFfcQ18hgAgcTut2a5k8P5CQ3sgMrck"
+			]
+		}
+	},
+	"version": 1
+}
