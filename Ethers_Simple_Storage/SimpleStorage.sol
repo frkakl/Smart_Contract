@@ -16,7 +16,7 @@ contract SimpleStorage {
     uint16 FavNum2 = 619; // Max 16 bit
     int FavNum3 = -9; // Positive or Negative whole nums
     string FavNuminText = "Seven"; //Text
-    address myAddress = 0xf2AfA62533357e2a39864680A3dAcd1f49FA6bd5; // Wallet address
+    // address myAddress = 0xf2AfA62533357e2a39864680A3dAcd1f49FA6bd5; // Wallet address
 
     uint favoriteNumber; // Initialized to zero and everyone can access
 
